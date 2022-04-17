@@ -1,0 +1,105 @@
+/* Variables */
+:root {
+    --dgray: #303438;
+    --eggshell: #f7f9fc;
+    --lblue: rgb(121, 174, 196);
+  }
+/* Universal */
+body {
+    font-family: "Roboto Slab", "Roboto", serif;
+    color:var(--dgray);
+    background-color: var(--eggshell);
+    box-sizing:border-box;
+    width:100%;
+}
+
+/* Header */
+header {
+    background-color: var(--lblue);
+}
+
+header > * {
+    background-color: var(--lblue);
+}
+
+.nav-link {
+    color:var(--dgray);
+    font-size:135%;
+}
+
+/* Images */
+.frame {
+    object-fit: contain;
+}
+
+.lg-proj-container {
+    display:flex;
+    height:25em;
+}
+
+.lg-proj-container img {
+    object-fit: scale-down;
+}
+
+.headshot {
+    width: 15em;
+}
+
+/* Anchor tags */
+.textlinks{ 
+    position:absolute;
+    font-size:20px;
+    font-weight:bold;
+    background-color: var(--lblue);
+    padding:5px 10px;
+    margin:21px;
+    margin-right:72em;
+    color:var(--dgray);
+    }
+
+/* Borders */
+.blueborder {
+    border:5px;
+    border-style:solid;
+    border-color:var(--lblue);
+    }
+
+.border-dgray {
+    border-top:0px;
+    border-left:0px;
+    border-bottom: 0px;
+    border-right:2px;
+    border-color:var(--dgray);
+}
+
+.fdirection {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 0px) {
+    main {
+        flex-direction:column;
+    }
+    .fdirection {
+        flex-direction: column;
+    }
+    .border-dgray {
+        border-style: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        flex-direction: row;
+    }
+    .fdirection {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .border-dgray {
+        border-style: solid;
+    }
+}
