@@ -33,30 +33,41 @@ header > * {
     object-fit: contain;
 }
 
-.lg-proj-container {
+.proj-container {
     display:flex;
     height:25em;
+    transition: all 0.3s ease-in-out;
+    overflow:hidden;
 }
 
-.lg-proj-container img {
+.proj-container img {
     object-fit: scale-down;
 }
 
-/* .headshot {
-    width: 15em;
-} */
+.proj-container:hover {
+    box-shadow: inset 0px 0px 12px
+    rgb(96, 202, 235), 0 0 15px
+    rgb(138, 102, 236);
+}
 
-/* Anchor tags */
-.textlinks{ 
+/* Link styling */
+.textlinks { 
+    display: flex;
     position:absolute;
     font-size:20px;
     font-weight:bold;
     background-color: var(--lblue);
-    padding:5px 10px;
-    margin:21px;
-    margin-right:72em;
     color:var(--dgray);
+    height: 2em;
+    margin-top:.5em;
+    justify-self: start;
     }
+
+/* Colors */
+
+.dark-back {
+    background-color: var(--dgray);
+}
 
 /* Borders */
 .blueborder {
