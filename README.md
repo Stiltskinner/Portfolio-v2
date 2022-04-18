@@ -82,4 +82,4 @@ Project Link: [https://github.com/Stiltskinner/Portfolio-v2](https://github.com/
 [issues-url]: https://github.com/Stiltskinner/Portfolio-v2/issues
 [license-shield]: https://img.shields.io/github/license/Stiltskinner/Portfolio-v2.svg?style=for-the-badge
 [license-url]: https://github.com/Stiltskinner/Portfolio-v2/blob/main/LICENSE
-[product-screenshot]: https://github.com/Stiltskinner/Portfolio-v2/blob/main/Images/Portfolio%Screenshot.png
+[product-screenshot]: https://github.com/Stiltskinner/Portfolio-v2/blob/main/Assets/images/Portfolio%20Screenshot.png
