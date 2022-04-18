@@ -7,8 +7,8 @@
 /* Universal */
 body {
     font-family: "Roboto Slab", "Roboto", serif;
-    color:var(--dgray);
-    background-color: var(--eggshell);
+    color:var(--eggshell);
+    background-color: var(--dgray);
     box-sizing:border-box;
     width:100%;
     max-width:100%;
@@ -25,6 +25,11 @@ header > * {
 
 .nav-link {
     color:var(--dgray);
+    font-size:135%;
+}
+
+.contact-link {
+    color:var(--eggshell);
     font-size:135%;
 }
 
@@ -93,25 +98,22 @@ header > * {
     border-color:var(--lblue);
     }
 
-.border-dgray {
-    border-top:0px;
-    border-left:0px;
-    border-bottom: 0px;
-    border-right:2px;
-    border-color:var(--dgray);
+.border-egg {
+    border-color:var(--eggshell);
 }
 
 @media screen and (min-width: 0px) {
     main {
         flex-direction:column;
     }
-    .border-dgray {
+    .border-egg {
         border-style: none;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .border-dgray {
+    .border-egg {
+        border-right: 3px;
         border-style: solid;
     }
 }
