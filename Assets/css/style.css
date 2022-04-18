@@ -29,25 +29,38 @@ header > * {
 }
 
 /* Images */
-.frame {
+.lg-proj-container {
+    max-height:25em;
+    transition: all 0.3s ease-in-out;
+    overflow:hidden;
+    object-fit: contain;
+}
+
+.lg-proj-container:hover {
+    box-shadow: inset 0px 0px 12px
+    rgb(96, 202, 235), 0 0 15px
+    rgb(138, 102, 236);
+}
+
+.lg-proj-container img {
+    height:100%;
     object-fit: contain;
 }
 
 .proj-container {
-    display:flex;
-    height:25em;
+    max-height:25em;
     transition: all 0.3s ease-in-out;
     overflow:hidden;
-}
-
-.proj-container img {
-    object-fit: scale-down;
 }
 
 .proj-container:hover {
     box-shadow: inset 0px 0px 12px
     rgb(96, 202, 235), 0 0 15px
     rgb(138, 102, 236);
+}
+
+.proj-container img {
+    object-fit: cover;
 }
 
 /* Link styling */
@@ -60,13 +73,16 @@ header > * {
     color:var(--dgray);
     height: 2em;
     margin-top:.5em;
-    justify-self: start;
     }
 
 /* Colors */
 
 .dark-back {
     background-color: var(--dgray);
+}
+
+.light-back {
+    background-color: var(--eggshell);
 }
 
 /* Borders */
