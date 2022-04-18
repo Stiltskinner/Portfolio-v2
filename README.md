@@ -61,7 +61,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Ryan Thomas - ryan.thomas@utexas.edu
 
-Project Link: [https://github.com/Stiltskinner/Portfolio-v2](https://github.com/Stiltskinner/Portfolio-v2)
+Project Link: [https://stiltskinner.github.io/Portfolio-v2/](https://stiltskinner.github.io/Portfolio-v2/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
