@@ -28,11 +28,6 @@ header > * {
     font-size:135%;
 }
 
-.contact-link {
-    color:var(--eggshell);
-    font-size:135%;
-}
-
 /* Images */
 .lg-proj-container {
     max-height:25em;
@@ -109,19 +104,22 @@ header > * {
     .border-egg {
         border-style: none;
     }
-}
-
-.textlinks { 
-    display: flex;
-    position:absolute;
-    font-size:11px;
-    font-weight:bold;
-    background-color: var(--lblue);
-    color:var(--dgray);
-    height: 1em;
-    margin-top:.5em;
-    align-items: center;
+    .textlinks { 
+        display: flex;
+        position:absolute;
+        font-size:11px;
+        font-weight:bold;
+        background-color: var(--lblue);
+        color:var(--dgray);
+        height: 1em;
+        margin-top:.5em;
+        align-items: center;
+        }
+    .contact-link {
+        color:var(--eggshell);
+        font-size:100%;
     }
+}
 
 @media screen and (min-width: 768px) {
     .border-egg {
@@ -140,4 +138,9 @@ header > * {
         margin-top:.5em;
         align-items: center;
         }
+
+    .contact-link {
+        color:var(--eggshell);
+        font-size:135%;
+    }
 }
