@@ -64,6 +64,10 @@ header > * {
     object-fit: cover;
 }
 
+/* #pig-container {
+    object-fit:scale-down;
+} */
+
 /* Link styling */
 .textlinks { 
     display: flex;
